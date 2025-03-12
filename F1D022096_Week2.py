@@ -5,7 +5,7 @@ class UserRegistrationForm(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Week 2 : Layout - User Registration Form")
-        self.setGeometry(500, 500, 800, 950)
+        self.setFixedSize(800, 900)
 
 
         # main layout
